@@ -1,4 +1,4 @@
-FROM openjdk:11.0.4-jdk
+FROM openjdk:11.0.7-jdk
 
 RUN mkdir /javavulny /app
 COPY . /javavulny/
