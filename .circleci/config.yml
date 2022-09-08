@@ -30,7 +30,6 @@ jobs:
 workflows:
   all-the-things:
     jobs:
-      - build-scan
       - stackhawk/hawkscan-local:
           requires:
             - build-scan
